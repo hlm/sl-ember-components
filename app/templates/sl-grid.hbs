@@ -26,14 +26,14 @@
             <tr>
                 {{#each column in columns}}
                     {{#unless column.hidden}}
-                       {{render-component column.component cssClass=column.cssClass column=column row=row}}
+                       {{component column.component cssClass=column.cssClass column=column row=row}}
                     {{/unless}}
                 {{/each}}
             </tr>
             {{#if options.rowExpander}}
                 {{#if row.rowExpanderIsOpen}}
                     {{#sl-grid-table-row-expander row=row visibleColumns=visibleColumns}}
-                        {{render-component row.rowExpanderComponent options=options data=row}}
+                        {{component row.rowExpanderComponent options=options data=row}}
                     {{/sl-grid-table-row-expander}}
                 {{/if}}
             {{/if}}
