@@ -18,7 +18,7 @@ module.exports = {
                 return self.addBowerPackageToProject( 'moment-timezone' );
             })
             .then( function() {
-                return self.addBowerPackageToProject( 'select2' );
+                return self.addBowerPackageToProject( 'select2', '3.5.1' );
             })
             .then( function() {
                 return self.addBowerPackageToProject( 'typeahead.js' );
