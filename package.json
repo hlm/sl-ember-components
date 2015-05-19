@@ -11,7 +11,7 @@
   "bugs": "https://github.com/softlayer/sl-ember-components/issues",
   "repository": {
     "type": "git",
-    "url": "http://github.com/softlayer/sl-ember-components.git"
+    "url": "http://github.com/hlm/sl-ember-components.git"
   },
   "engines": {
     "node": ">= 0.10.0"
